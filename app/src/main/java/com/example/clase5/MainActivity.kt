@@ -24,13 +24,16 @@ import dagger.hilt.android.AndroidEntryPoint
 @AndroidEntryPoint
 class MainActivity : ComponentActivity() {
 
+    //para la implementacion de Retrofit:
+   // private val presenter = ListViewModel(GetCharactersUseCase(characters = CharacterImpl()))
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
 
         enableEdgeToEdge()
 
-       val intent = Intent(DashboardActivity::class.toString())
 
+        val intent = Intent(DashboardActivity::class.toString())
 
         setContent {
             val navController = rememberNavController()

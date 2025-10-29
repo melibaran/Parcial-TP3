@@ -57,9 +57,6 @@ dependencies {
     //Para ROOM:
     val room_version = "2.8.2"
 
-    implementation(libs.androidx.core.ktx)
-    implementation(libs.androidx.lifecycle.runtime.ktx)
-    implementation(libs.androidx.activity.compose)
 
     //COMPOSE:
     implementation(platform(libs.androidx.compose.bom))
@@ -70,7 +67,9 @@ dependencies {
     //NAVIGATION:
     implementation(libs.androidx.navigation.compose)
 
-
+    implementation(libs.androidx.core.ktx)
+    implementation(libs.androidx.lifecycle.runtime.ktx)
+    implementation(libs.androidx.activity.compose)
     implementation(libs.androidx.ui)
     implementation(libs.androidx.ui.graphics)
     implementation(libs.androidx.ui.tooling.preview)
@@ -91,6 +90,8 @@ dependencies {
 
     //RETROFIT:
     implementation(libs.retrofit)
+    implementation(libs.converter.gson)
+
 
     //Para ROOM dependencies:
     ksp("androidx.room:room-compiler:$room_version")

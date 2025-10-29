@@ -7,7 +7,7 @@ import dagger.hilt.components.SingletonComponent
 import javax.inject.Singleton
 import android.content.Context
 import androidx.room.Room
-import com.example.clase5.data.network.AppDatabase
+import com.example.clase5.infrastructure.AppDatabase
 import com.example.clase5.data.dao.MensajeDao
 import dagger.hilt.android.qualifiers.ApplicationContext // Necesario para obtener el Context
 

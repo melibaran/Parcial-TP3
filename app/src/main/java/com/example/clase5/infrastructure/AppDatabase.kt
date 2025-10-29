@@ -1,4 +1,4 @@
-package com.example.clase5.data.network
+package com.example.clase5.infrastructure
 
 import androidx.room.Database
 import androidx.room.RoomDatabase
