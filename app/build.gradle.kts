@@ -9,7 +9,7 @@ plugins {
 }
 
 android {
-    namespace = "com.example.clase5"
+    namespace = "com.example.parcial"
     compileSdk = 36
 
     defaultConfig {
